@@ -1,0 +1,180 @@
+body {
+    background-color: #c0c0c0 !important;
+}
+
+.navbar {
+    width: 100vw !important;
+}
+
+svg {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.navbar-brand {
+    margin-top: -3px !important;
+    margin-left: 109px !important;
+}
+
+.navbar-brand:hover {
+    background-color: #ffff !important;
+}
+
+.linha-vertical {
+    height: 30px !important;
+    border: 1px solid #535353 !important;
+    margin-top: 5px !important;
+}
+
+.nav-link {
+    margin-left: 9px !important;
+}
+
+/*--------------------Estilizando os Links-----------------------*/
+
+a:hover {
+    background-color: #c0c0c0 !important;
+    border-radius: 3px !important;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.card-div {
+    width: 370px !important;
+    height: 450px !important;
+    margin-top: 140px !important;
+    padding: 4px !important;
+    background-color: #c2c2c2 !important;
+    box-shadow: 5px 0px 5px 5px #808080 !important;
+    border-radius: 17px !important;
+}
+
+.card-header {
+    width: 293px !important;
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+    margin-bottom: 10px !important;
+    color: black !important;
+    background-color: #c0c0c0 !important;
+    border-radius: 7px !important;
+    border: 0 !important;
+}
+
+.label-v1 {
+    margin-top: 5px !important;
+    margin-left: 30px !important;
+    font-weight: bold !important;
+}
+
+.input-v1 {
+    width: 293px !important;
+    margin-top: -10px !important;
+    float: right !important;
+    margin-right: 40px !important;
+    border-radius: 7px !important;
+}
+
+.input-v2 {
+    width: 293px !important;
+    margin-top: 7px !important;
+    float: right !important;
+    margin-right: 40px !important;
+    border-radius: 7px !important;
+}
+
+.input-v3 {
+    width: 293px !important;
+    margin-top: 7px !important;
+    float: right !important;
+    margin-right: 40px !important;
+    border-radius: 7px !important;
+}
+
+.label-v2 {
+    margin-top: 5px !important;
+    margin-left: 30px !important;
+    font-weight: bold !important;
+}
+
+.btn-success {
+    width: 293px !important;
+    margin-left: 30px !important;
+    margin-top: 30px !important;
+    color: black !important;
+    background-color: #c2c2c2 !important;
+    border-radius: 7px !important;
+    border: 1px solid #595959 !important;
+}
+
+.form-floating {
+    width: 293px !important;
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+    color: black !important;
+}
+
+.text-area {
+    background-color: #c2c2c2 !important;
+    border-radius: 7px !important;
+    border: 1px solid #595959 !important;
+}
+
+.labelText-area {
+    margin-top: -19px !important;
+    margin-left: -5px !important;
+}
+
+.labelText-area3 {
+    margin-top: -19px !important;
+    margin-left: 39px !important;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+
+.navbar_footer {
+    display: block !important;
+}
+
+span {
+    display: block;
+    text-align: center !important;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+
+@media (max-width: 360px) {
+    #navbar {
+        width: 143vw !important;
+    }
+
+    .navbar-brand {
+        margin-top: -3px !important;
+        margin-left: 30px !important;
+    }
+
+    .card-div {
+        display: block !important;
+        width: 370px !important;
+        height: 450px !important;
+        margin-top: 140px !important;
+        margin-left: 55px !important;
+        padding: 4px !important;
+        background-color: #c2c2c2 !important;
+        box-shadow: 5px 0px 5px 5px #808080 !important;
+        border-radius: 17px !important;
+    }
+
+    .navbar_footer {
+        display: block !important;
+        width: 143vw !important;
+    }
+    
+    .span {
+        display: block;
+        text-align: center !important;
+    }
+}

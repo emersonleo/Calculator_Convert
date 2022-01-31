@@ -1,0 +1,269 @@
+body{
+    background-color: #c0c0c0 !important;
+}
+
+.navbar {
+    width: 100vw !important;
+}
+
+svg {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.navbar-brand {
+    margin-top: -3px !important;
+    margin-left: 109px !important;
+}
+
+.navbar-brand:hover {
+    background-color: #ffff !important;
+}
+
+.linha-vertical {
+    height: 30px !important;
+    border: 1px solid #535353 !important;
+    margin-top: 5px !important;
+}
+
+.nav-link {
+    margin-left: 9px !important;
+}
+
+/*--------------------Estilizando os Links-----------------------*/
+
+a:hover {
+    background-color: #c0c0c0 !important;
+    border-radius: 3px !important;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.card-titulo {
+    height: 50px !important;
+    padding: 7px !important;
+    margin: 0 auto !important;
+    margin-top: 70px !important;
+    box-sizing: border-box !important;
+}
+
+.sp-texto {
+    font-size: 1.5em !important;
+}
+
+.cards-calc {
+    margin: 0 auto !important;
+    margin-top: 150px !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    cursor: pointer !important;
+}
+
+.cards {
+    height: 150px !important;
+    text-align: start !important;
+    padding: 15px !important;
+    font-size: 1.2em !important;
+    font-weight: 510 !important;
+    cursor: pointer !important;
+}
+
+.label-texto2 {
+    font-size: 1em !important;
+    font-weight: 200 !important;
+    cursor: pointer !important;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+.navbar_footer {
+    display: block !important;
+}
+
+span {
+    display: block;
+    text-align: center !important;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+@media (max-width: 1600px){
+    .navbar {
+        width: 100vw !important;
+    }
+
+    .cards {
+        height: 150px !important;
+        text-align: start !important;
+        padding: 15px !important;
+        font-size: 20px !important;
+        font-weight: 510 !important;
+        cursor: pointer !important;
+    }
+    
+    .label-texto1 {
+        font-size: 13px !important;
+        font-weight: 200 !important;
+        cursor: pointer !important;
+    }
+    
+    .label-texto2 {
+        font-size: 13px !important;
+        font-weight: 200 !important;
+        cursor: pointer !important;
+    }
+    
+    .label-texto3 {
+        font-size: 13px !important;
+        font-weight: 200 !important;
+        cursor: pointer !important; 
+    }
+}
+
+
+
+@media (max-width: 560px){
+    body{
+        background-color: #c0c0c0 !important;
+        overflow-x: hidden !important;
+    }
+
+    #navbar {
+        width: 98vw !important;
+    }
+
+    .navbar-brand {
+        margin-top: -3px !important;
+        margin-left: 30px !important;
+    }
+
+    .card-div {
+        display: block !important;
+        width: 370px !important;
+        height: 450px !important;
+        margin-top: 140px !important;
+        margin-left: 55px !important;
+        padding: 4px !important;
+        background-color: #c2c2c2 !important;
+        box-shadow: 5px 0px 5px 5px #808080 !important;
+        border-radius: 17px !important;
+    }
+
+    .card-titulo {
+        height: 90px !important;
+        padding: 7px !important;
+        margin: 0 auto !important;
+        margin-top: 70px !important;
+        margin-left: 110px !important;
+        box-sizing: border-box !important;
+    }
+
+    .cards-calc {
+        margin: 0 auto !important;
+        margin-top: 100px !important;
+    
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        cursor: pointer !important;
+        display: block !important;
+    }
+
+    .car1 {
+        width: 300px !important;
+        margin-bottom: 30px !important;
+        margin-left: -10px !important;
+    }
+
+    .car2 {
+        width: 300px !important;
+        margin-left: -10px !important;
+        margin-bottom: 70px !important;
+    }
+
+    .navbar_footer {
+        display: block !important;
+        width: 143vw !important;
+    }
+    
+    .span {
+        display: block;
+        text-align: center !important;
+    }
+}
+
+
+
+/*Para mobile*/
+@media (max-width: 360px){
+    body{
+        background-color: #c0c0c0 !important;
+    }
+
+    #navbar {
+        width: 143vw !important;
+    }
+
+    .navbar-brand {
+        margin-top: -3px !important;
+        margin-left: 30px !important;
+    }
+
+    .card-div {
+        display: block !important;
+        width: 370px !important;
+        height: 450px !important;
+        margin-top: 140px !important;
+        margin-left: 55px !important;
+        padding: 4px !important;
+        background-color: #c2c2c2 !important;
+        box-shadow: 5px 0px 5px 5px #808080 !important;
+        border-radius: 17px !important;
+    }
+
+    .card-titulo {
+        height: 90px !important;
+        padding: 7px !important;
+        margin: 0 auto !important;
+        margin-top: 70px !important;
+        margin-left: 150px !important;
+        box-sizing: border-box !important;
+    }
+
+    .cards-calc {
+        margin: 0 auto !important;
+        margin-top: 100px !important;
+    
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        cursor: pointer !important;
+        display: block !important;
+    }
+
+    .car1 {
+        width: 300px !important;
+        margin-bottom: 30px !important;
+        margin-left: 20px !important;
+    }
+
+    .car2 {
+        width: 300px !important;
+        margin-left: 20px !important;
+        margin-bottom: 70px !important;
+    }
+
+    .navbar_footer {
+        display: block !important;
+        width: 143vw !important;
+    }
+    
+    .span {
+        display: block;
+        text-align: center !important;
+    }
+}

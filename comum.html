@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Conversor</title>
+
+
+     <!--Link do jquery-->
+     <script src="./js/jquery-3.6.0.min.js" defer></script>
+
+     <!--Link do Manipulando jquery-->
+     <script src="./js/manipulando_jquery.js" defer></script>
+
+     <!--Link do bootstrap-->
+     <link rel="stylesheet" type="text/css" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css" />
+
+     <!--Link do js bootstrap-->
+     <script src="./bootstrap-5.1.3-dist/js/bootstrap.min.js" defer></script>
+
+     <!--Link do css-->
+     <link rel="stylesheet" type="text/css" href="./css/estilo2.css" />
+ 
+     <!--Link para colocar ícone no titulo-->
+     <link rel="shortcut icon" href="./img/calculator.svg" type="image/x-icon" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calculator" viewBox="0 0 16 16">
+                <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"/>
+              </svg>
+          <a class="navbar-brand" href="index.html">conv&rtcalc</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <div class="linha-vertical"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="comum.html">Calculadora e Conversor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="financeira.html">Financeira</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="datas.html">Datas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="saude.html">Saúde</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    <!--Conteudo principal-->
+    <div class="card card-titulo col-7">
+        <span class="sp-texto">Calculadora / Conversor</span>
+    </div>
+    
+    <div class="row col-7 cards-calc">
+        <div class="col-4">
+            <div class="card cards card2 car1" id="card-calc-comum">
+                <label>Calculadora Comum</label>
+                <label class="label-texto2">Realize cálculos do dia a dia e escolha a operação desejada.</label>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card cards card2 car2" id="card-conver-comum">
+                <label>Conversor bases numericas</label>
+                <label class="label-texto2">Realize conversões com as bases desejadas.</label>
+            </div>
+        </div>
+        <div class="col-4">
+        </div>
+    </div>
+    
+    <!--Footer-->
+    <div class="navbar navbar-expand-lg navbar-light bg-light navbar_footer fixed-bottom">
+        <span>&copy; 2022 Copyright - conv&rtcalc</span>
+    </div>
+</body>
+</html>
