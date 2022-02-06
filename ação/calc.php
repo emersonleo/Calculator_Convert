@@ -5,6 +5,7 @@ $resultado = 0.00;
 switch ($req) {
     case 1:
         /*Pegando o valor1 no campo formulário num1*/
+        //mais uma vez sobre a questão de nomear as variaveis
         $v1 = filter_input (INPUT_POST, "txtValor1", FILTER_SANITIZE_STRING);
         /*Pegando o valor2 no campo formulário num2*/
         $v2 = filter_input (INPUT_POST, "txtValor2", FILTER_SANITIZE_STRING);

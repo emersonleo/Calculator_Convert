@@ -10,9 +10,13 @@ $(document).ready(function() {
             opcao : $("#opcao").val()
         };
         
+        //Como é um código que entregou pra revisão não é um problema, mas tenta não deixar console.log
+        //ou prints em projetos na hora da entrega
         console.log(obj);
 
-        $.ajax({
+        //tem uma forma mais resumida e na minha humilde opnião, mais prática de fazer o post com jquery
+        //que é usando o $.post aqui um link explicando sobre https://api.jquery.com/jquery.post/
+        $.ajax({ 
             url: "ação/calc.php?req=1",
             type: "POST",
             dataType: "TEXT",
@@ -56,6 +60,7 @@ $(document).ready(function() {
      /*Código para comunicar o html das calculadoras ao PHP*/
     /*Para calculadora juros simples*/
     $("#btnCalcular3").click(function() {
+        //tenta nomear as variáveis de uma forma que facilite a leitura de outras pessoas, tipo "dadosCalculadora" ou como tu fez em baixo no json
         var obj3 = {
             txtTaxa : $("#txtTaxa").val(),
             txtTempo : $("#txtTempo").val(),
@@ -269,6 +274,8 @@ $(document).ready(function() {
 
 
      /*Isso para os cards da página Calculadora datas ao clicar no card Dia da semana irá ser levado para a página calculadora Dia da semana*/
+
+     //não conhecia essa forma de redirecionar kkk, valeu pelo conhecimento 
      $("#card-conver-Dia-Semana").click(function() {
         $(location).attr("href", "calculadora_dia_da_semana.html");
     });
